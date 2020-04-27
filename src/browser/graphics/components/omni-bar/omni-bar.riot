@@ -32,8 +32,7 @@
             </figure>
         </div>
         <div class="column is-paddingless omni is-vcentered">
-            <event-title if={state.showInfo === 0} title={state.eventTitle}></event-title>
-            <checkpoint-detail if={state.showInfo === 1}></checkpoint-detail>
+            <checkpoint-detail></checkpoint-detail>
         </div>
         <div style="min-width:10rem;" class="column is-narrow is-paddingless timer has-text-dark is-background-light has-text-right">
             <span class="
@@ -89,10 +88,6 @@
                         this.state.logo = newVal.logoUrl
                         this.update()
                     })
-                    setInterval(() => {
-                        this.state.showInfo = (this.state.showInfo + 1) % 2
-                        this.update()
-                    }, 20000)
                 }
             }
         }
