@@ -140,14 +140,14 @@
     ],
     "graphics": [
       {
-        "file": "team3-4.html",
-        "width": 1280,
-        "height": 800
+        "file": "team2.html",
+        "width": 1590,
+        "height": 660
       },
       {
         "file": "omnibar.html",
-        "width": 1280,
-        "height": 72
+        "width": 1920,
+        "height": 108
       },
       {
         "file": "countdown.html",
@@ -156,8 +156,8 @@
       },
       {
         "file": "checkpoint.html",
-        "width": 220,
-        "height": 650
+        "width": 330,
+        "height": 972
       },
       {
         "file": "commentary.html",
